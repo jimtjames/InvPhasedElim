@@ -1,0 +1,25 @@
+name: invphasedelim
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - gurobi
+  - defaults
+dependencies:
+  - cvxpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pytorch-cuda=11.7
+  - pytorch
+  - torchvision
+  - torchaudio
+  - parsl
+  - python=3.8
+  - pandas
+  - pip
+  - tqdm
+  - gurobi
+  - pip:
+    - implicit
+    - eals
